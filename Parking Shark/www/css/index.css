@@ -32,14 +32,16 @@ body {
 }
 
 .app {
-    background: url(../images/cordova.png) no-repeat center top; 
-    position: absolute;             
+    background: url('/www/images/CarExample3.png') no-repeat #ff0000 center center;
+    background-size: 200px 200px;
+    position: absolute;
+    border-radius: 30px;
     left: 50%;
-    top: 50%;
-    height: 50px;                  
-    width: 225px;                   
+    top: 30%;
+    height: 5px;
+    width: 225px;
     text-align: center;
-    padding: 180px 0px 0px 0px;     
+    padding: 180px 0px 0px 0px;
     margin: -115px 0px 0px -112px;
 }
 
@@ -94,4 +96,36 @@ h1 {
 .blink {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
+}
+
+.roundedEdge {
+    border-radius: 10px;
+    border: 2px solid #32383d;
+    padding: 5px;
+    width: 220px;
+    height: 20px;
+    text-align:center;
+}
+
+.page {
+    background:none;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    height: 5px;
+    width: 225px;
+    text-align: center;
+    padding: 180px 0px 0px 0px;
+    margin: -115px 0px 0px -112px;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    height: 5px;
+    width: 225px;
+    text-align: center;
+    padding: 180px 0px 0px 0px;
+    margin: -115px 0px 0px -112px;
 }
